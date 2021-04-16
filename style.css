@@ -1,0 +1,59 @@
+* {
+    font-family: 'pixelboi';
+}
+
+body {
+text-align: center;
+background-image: url('totoro.gif');
+background-size: 650px;
+    background-position-x: 800px;
+    background-position-y: 300px;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    font-size: 3em;
+    margin-left: -60px;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    height: 80px;
+    width: 550px;
+}
+
+.nupp {
+   margin-bottom: 50px;
+}
+
+
+.kiri {
+    margin-left: 330px;
+    margin-top: 30px;
+    width: 700px;
+    height: 500px;
+    position: relative;
+    border-radius: 25px;
+
+}
+
+.kiri h1 {
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    margin: 0 auto;
+   
+}
+
+@font-face {
+    font-family: 'pixelboi'; /*a name to be used later*/
+    src: url('dogicapixel.ttf'); /*URL to font*/
+}
